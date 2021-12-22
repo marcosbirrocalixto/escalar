@@ -3,9 +3,8 @@
 namespace App\Repositories\Core\Eloquent;
 
 use App\Models\Produto;
-use App\Repositories\Contracts\ProdutoRepositoryInterface;
 use App\Repositories\Core\BaseEloquentRepository;
-use Illuminate\Http\Request;
+use App\Repositories\Contracts\ProdutoRepositoryInterface;
 
 class EloquentProdutoRepository extends BaseEloquentRepository implements ProdutoRepositoryInterface
 {
